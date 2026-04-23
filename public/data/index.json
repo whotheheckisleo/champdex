@@ -1,0 +1,21 @@
+{
+  "currentVersion": "M-A",
+  "label": "Pokemon Champions Regulations",
+  "packs": [
+    {
+      "version": "M-A",
+      "label": "Regulation M-A",
+      "format": "champions-regulation-v1",
+      "regulation": "M-A",
+      "meta": "data/M-A/meta/version.json",
+      "roster": "data/M-A/pokemon/roster.json",
+      "baseStats": "data/M-A/pokemon/base-stats.json",
+      "abilities": "data/M-A/abilities/abilities.json",
+      "items": "data/M-A/items/items.json",
+      "learnsets": "data/M-A/learnsets/learnsets.json",
+      "moves": "data/M-A/moves/moves.json",
+      "natures": "data/M-A/natures/natures.json",
+      "typeChart": "data/M-A/type-chart/effectiveness.json"
+    }
+  ]
+}
