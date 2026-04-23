@@ -28,6 +28,32 @@ export function AboutPage() {
             side, then import or export in the standard Pokemon Showdown format.
           </p>
         </div>
+
+        <div>
+          <h2 className="text-xl font-bold text-white sm:text-2xl">Special Thanks</h2>
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-7 text-slate-400 sm:text-base">
+            <li>
+              <a
+                className="text-slate-200 underline hover:text-white"
+                href="https://github.com/otterlyclueless"
+                rel="noreferrer"
+                target="_blank"
+              >
+                otterlyclueless
+              </a>{' '}
+              for{' '}
+              <a
+                className="text-slate-200 underline hover:text-white"
+                href="https://github.com/otterlyclueless/pokemon-champions-data"
+                rel="noreferrer"
+                target="_blank"
+              >
+                their repository
+              </a>{' '}
+              containing all the data needed to build the Dex.
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   )
